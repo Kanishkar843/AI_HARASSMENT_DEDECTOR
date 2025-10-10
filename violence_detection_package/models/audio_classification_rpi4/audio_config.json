@@ -1,0 +1,22 @@
+{
+  "input_shape": [
+    40,
+    130,
+    1
+  ],
+  "classes": [
+    "Scream",
+    "Aggressive_Speech",
+    "Normal_Talk",
+    "Environmental_Noise"
+  ],
+  "sample_rate": 22050,
+  "duration_seconds": 3,
+  "n_mfcc": 40,
+  "hop_length": 512,
+  "n_fft": 2048,
+  "quantized": true,
+  "test_accuracy": 0.9281768202781677,
+  "test_loss": 0.18285824358463287,
+  "model_size_mb": 0.49633026123046875
+}

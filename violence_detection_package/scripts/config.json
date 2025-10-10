@@ -1,0 +1,94 @@
+{
+  "system": {
+    "name": "Violence Detection System",
+    "version": "1.0.0",
+    "description": "Integrated vision and audio violence detection for Raspberry Pi 4"
+  },
+  
+  "models": {
+    "vision_model_path": "models/violence_detection.tflite",
+    "audio_model_path": "models/audio_detection.tflite",
+    "vision_labels_path": "models/vision_labels.txt",
+    "audio_labels_path": "models/audio_labels.txt"
+  },
+  
+  "detection": {
+    "alert_threshold": 0.70,
+    "alert_cooldown_frames": 30,
+    "vision_enabled": true,
+    "audio_enabled": true,
+    "multimodal_fusion": true
+  },
+  
+  "camera": {
+    "device_id": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "auto_exposure": true,
+    "brightness": 50,
+    "contrast": 50
+  },
+  
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "chunk_size": 1024,
+    "record_seconds": 2,
+    "input_device_index": null
+  },
+  
+  "alerts": {
+    "log_directory": "logs",
+    "alert_directory": "alerts",
+    "save_video_evidence": false,
+    "save_audio_evidence": false,
+    "save_screenshots": true,
+    "max_alerts_per_hour": 100
+  },
+  
+  "display": {
+    "show_preview": true,
+    "show_fps": true,
+    "show_confidence": true,
+    "fullscreen": false,
+    "window_name": "Violence Detection System"
+  },
+  
+  "performance": {
+    "max_queue_size": 10,
+    "num_threads": 2,
+    "use_gpu": false,
+    "optimize_for_speed": true
+  },
+  
+  "logging": {
+    "log_level": "INFO",
+    "log_to_file": true,
+    "log_to_console": true,
+    "max_log_size_mb": 100,
+    "backup_count": 5
+  },
+  
+  "threat_classes": {
+    "vision_threats": ["Violence", "Blood"],
+    "audio_threats": ["Scream", "Gunshot", "Explosion", "Breaking_Glass"]
+  },
+  
+  "notifications": {
+    "enable_console_alerts": true,
+    "enable_sound_alerts": false,
+    "enable_email_alerts": false,
+    "enable_sms_alerts": false,
+    "email_recipients": [],
+    "sms_recipients": []
+  },
+  
+  "advanced": {
+    "frame_skip": 0,
+    "motion_detection_threshold": 30,
+    "min_detection_confidence": 0.50,
+    "enable_preprocessing": true,
+    "enable_postprocessing": true
+  }
+}

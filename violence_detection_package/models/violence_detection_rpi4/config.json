@@ -1,0 +1,16 @@
+{
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "classes": [
+    "Violence",
+    "Blood",
+    "Normal"
+  ],
+  "quantized": true,
+  "test_accuracy": 0.9985185265541077,
+  "test_loss": 0.0037763568107038736,
+  "model_size_mb": 0.4366302490234375
+}
