@@ -1,0 +1,6 @@
+{"timestamp": "2025-09-10T15:11:38.666881", "vision": 0.85, "audio": 0.0, "pir": false, "context_risk": 0.85, "decision": "MEDIUM", "score": 0.765, "reasoning": ["MEDIUM: High vision 85.0% + context risk 85.0%"]}
+{"timestamp": "2025-09-10T15:11:38.669954", "vision": 0.45, "audio": 0.0, "pir": false, "context_risk": 0.45, "decision": "NORMAL", "score": 0.135, "reasoning": ["NORMAL: No significant threat detected"]}
+{"timestamp": "2025-09-10T15:11:38.676972", "vision": 0.2, "audio": 0.0, "pir": false, "context_risk": 0.2, "decision": "NORMAL", "score": 0.06, "reasoning": ["NORMAL: No significant threat detected"]}
+{"timestamp": "2025-09-10T15:15:23.052407", "vision": 0.85, "audio": 0.5, "pir": false, "context_risk": 0.85, "decision": "MEDIUM", "score": 0.765, "reasoning": ["MEDIUM: High vision 85.0% + context risk 85.0%"]}
+{"timestamp": "2025-09-10T15:15:23.485226", "vision": 0.45, "audio": 0.5, "pir": false, "context_risk": 0.5, "decision": "LOW", "score": 0.3, "reasoning": ["LOW: Moderate detection levels"]}
+{"timestamp": "2025-09-10T15:15:23.824661", "vision": 0.2, "audio": 0.0, "pir": false, "context_risk": 0.2, "decision": "NORMAL", "score": 0.06, "reasoning": ["NORMAL: No significant threat detected"]}
